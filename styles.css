@@ -1,0 +1,57 @@
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px;
+}
+
+.gallery img {
+    /*
+    The original images are all different sizes but we need
+    them to be consistent for the gallery layout to look good.
+    */
+    height: 200px;
+
+    /* add an outline around each picture */
+    border: 3px double black;
+}
+
+.gallery p {
+    text-align: center;
+    margin-top: 0;
+}
+
+body{
+    text-align:center;
+    background:url(https://wallpapercrafter.com/th800/134135-Super-Mario-Super-Mario-Bros.-video-games-pixel-art-pixels-clouds-clear-sky-minimalism.png);
+    color:black;
+    font-style: italic;
+    font-family:monospace;
+    border-style: ridge;
+    border-color:#b84dff;
+    
+}
+ 
+h1{ background-color: #F0FFFF; }
+
+.add {  width:100px;
+    text-shadow: 2px 2px 5px blue;
+    color: white;
+    background-color:#6a5acd;
+    border-style: ridge;
+    height:40px;
+    border: 2px solid #a781ff; /* Purple */
+    font-family:monospace;
+}
+
+img { border:3px double black;
+    margin:15px;
+    padding:5px;
+    width:300px;
+    height:170px;
+    justify-content:center;
+}
